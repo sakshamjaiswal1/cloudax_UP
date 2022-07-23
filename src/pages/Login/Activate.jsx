@@ -1,0 +1,30 @@
+import React from "react";
+import logo from "../../assets/logo.svg";
+import {AiOutlineArrowLeft} from 'react-icons/ai'
+
+const Activate = () => {
+  return (
+    <div className="flex bg-[#F5F5F5] justify-center">
+    <div className="flex-[3_3_0]">
+      <img src={logo} className="h-max w-[100%]" alt="" />
+    </div>
+
+    <div className="flex-[4_4_0] flex flex-col  pl-[100px] pt-[90px]">
+    <AiOutlineArrowLeft className="text-[#000000] text-[30px] mb-[24px]" />
+      <p className="text-[#000000] font-[700] text-[39.02px] leading-[51px]">
+        Activate your account
+      </p>
+   
+      <label htmlFor="" className="text-[#393939] text-[21px] py-[30px]">Enter the 6-digit OTP sent to your phone number</label>
+      <input
+        type="text"
+        className="px-[6px]  border-[1.29px] border-[#000000] rounded-[38px] w-[478px] h-[83px] relative bg-inherit"
+      />
+      <button className="bg-[#28A9F1] rounded-[38px] text-[#F9F9FB] w-[476px] h-[82px] mt-[43px] mb-[30px]" >Confirm</button>
+      <p className="text-[#393939] text-[21px] font-[400] pl-[70px]">Didn’t get the code <a href=""className="text-[#28A9F1] underline" >Resend OTP </a></p>
+    </div>
+  </div>
+  )
+}
+
+export default Activate

@@ -1,0 +1,19 @@
+<svg width="267" height="268" viewBox="0 0 267 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="267" height="268" fill="#F5F5F5"/>
+<g id="MacBook Pro 14&#34; - 46" clip-path="url(#clip0_0_1)">
+<rect width="1512" height="982" transform="translate(-763 -303)" fill="white"/>
+<circle id="Ellipse 35" cx="133.5" cy="134.187" r="133.5" fill="#28A9F1"/>
+<g id="akar-icons:camera">
+<g id="Group">
+<path id="Vector" d="M103.223 97.6285L105.559 85.942C106.035 83.5608 107.322 81.4182 109.2 79.879C111.078 78.3397 113.432 77.499 115.86 77.5H151.14C153.568 77.499 155.922 78.3397 157.8 79.879C159.678 81.4182 160.965 83.5608 161.441 85.942L163.777 97.6285C164.143 99.4597 165.022 101.149 166.311 102.5C167.601 103.852 169.247 104.809 171.058 105.262C175.327 106.33 179.116 108.794 181.823 112.262C184.53 115.73 186 120.004 186 124.404V161.5C186 167.07 183.788 172.411 179.849 176.349C175.911 180.288 170.57 182.5 165 182.5H102C96.4305 182.5 91.089 180.288 87.1508 176.349C83.2125 172.411 81 167.07 81 161.5V124.404C80.9996 120.004 82.4699 115.73 85.1771 112.262C87.8844 108.794 91.6733 106.33 95.9415 105.262C97.7533 104.809 99.3995 103.852 100.689 102.5C101.978 101.149 102.857 99.4597 103.223 97.6285V97.6285Z" stroke="white" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M133.5 161.5C145.098 161.5 154.5 152.098 154.5 140.5C154.5 128.902 145.098 119.5 133.5 119.5C121.902 119.5 112.5 128.902 112.5 140.5C112.5 152.098 121.902 161.5 133.5 161.5Z" stroke="white" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M128.25 98.5H138.75" stroke="white" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1512" height="982" fill="white" transform="translate(-763 -303)"/>
+</clipPath>
+</defs>
+</svg>
