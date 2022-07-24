@@ -20,22 +20,22 @@ const KycVerified = () => {
 
       <label
         htmlFor=""
-        className="text-[#393939] pr-[70px] text-[21px] py-[30px]"
+        className="text-[#000000] pr-[70px] text-[21px] py-[30px]"
       >
         To ensure the security of your account, please complete the following.
       </label>
-      <button className="bg-[#DBFFC9] flex justify-between items-center rounded-[20px] text-[#000000] w-[476px] h-[82px] mt-[13px] mb-[20px] px-[20px]">
+      <button className="bg-[#DBFFC9] flex justify-between items-center rounded-[20px] text-[#000000] w-[476px] text-[21px] h-[82px] mt-[13px] mb-[20px] px-[20px]">
         Go to Email{" "}
         <img src={verified} alt="" className="h-[27px] w-[27px]" />
       </button>
 
-      <button className="bg-[#DBFFC9] rounded-[20px] text-[#000000] flex items-center justify-between px-[20px] w-[476px] h-[82px]  mb-[20px]">
+      <button className="bg-[#DBFFC9] rounded-[20px] text-[#000000] flex items-center justify-between px-[20px] text-[21px] w-[476px] h-[82px]  mb-[20px]">
         Verify Government Issued ID  <img src={verified} alt="" className="h-[27px] w-[27px]" />
       </button>
-      <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between px-[20px] w-[476px] h-[82px]  mb-[20px]">
+      <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between px-[20px] text-[21px] w-[476px] h-[82px]  mb-[20px]">
         Facial Verification <img src={right} alt="" className="h-[20px] w-[20px]" />
       </button>
-      <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-center px-[20px] w-[476px] h-[82px]  mb-[20px]">
+      <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-center px-[20px] w-[476px] text-[21px] h-[82px]  mb-[20px]">
        Skip
       </button>
     </div>

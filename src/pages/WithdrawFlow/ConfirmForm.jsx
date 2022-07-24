@@ -1,10 +1,14 @@
 import React from 'react'
 
 import Header from '../../components/Header/Header'
-
+import arrowLeft from "../../assets/arrowLeft.svg";
 const ConfirmForm = () => {
   return (
     <> <Header/>
+    <div className="flex ml-20  items-end " > <img
+                      src={arrowLeft}                      alt=""
+                      class="flex-shrink-0 ml-20 h-6 w-6 rounded-full "
+                    /> </div>
     <div className="flex justify-center">
         
         
@@ -45,11 +49,11 @@ const ConfirmForm = () => {
             </div>
             <div className="mt-6 mb-6 relative justify-center ml-2 pl-0">
              
-              <div class="mt-3 relative justify-center ml-3 pl-8">
+              <div class="mt-3 relative justify-center ml-1 pl-8">
                 <button
                   type="button"
                   
-                  class="text-gray-400 p-4 w-11/12 justify-center   border border-gray-300 rounded-3xl bg-white shadow-sm pl-3  text-center  focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  class="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-3xl bg-white shadow-sm pl-3  text-center  focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 >
                   Confirm
                 </button>

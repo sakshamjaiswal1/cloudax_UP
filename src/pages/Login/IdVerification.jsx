@@ -18,15 +18,15 @@ const IdVerification = () => {
 
         <label
           htmlFor=""
-          className="text-[#393939] pr-[70px] text-[21px] py-[30px]"
+          className="text-[#000000] pr-[150px] text-[21px] font-[400] py-[30px]"
         >
           Please provide a valid government issued ID for verification.
         </label>
 
-        <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between px-[20px] w-[476px] h-[82px]  mb-[20px]">
+        <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between text-[22px] font-[400] px-[20px] w-[476px] h-[82px]  mb-[20px]">
           Select Id Type <img src={down} alt="" className="h-[20px] w-[20px]" />
         </button>
-        <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between px-[20px] w-[476px] h-[82px]  mb-[20px]">
+        <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between  text-[22px] font-[400] px-[20px] w-[476px] h-[82px]  mb-[20px]">
           Id Number
         </button>
         <div className="relative">
@@ -56,7 +56,7 @@ const IdVerification = () => {
           />
         </div>
         <p className="text-[16px] font-[400] text-[#000000] mt-[30px] mb-[15px]">All images should be in JPEG or PNG fotmat.</p>
-        <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-center px-[20px] w-[476px] h-[82px]  mb-[20px]">
+        <button className="bg-[#F2F2F2] rounded-[38px] text-[#121212] flex items-center text-[25px] font-[400] justify-center px-[20px] w-[476px] h-[82px]  mb-[40px]">
           Verify
         </button>
       </div>

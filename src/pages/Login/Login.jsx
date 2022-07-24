@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import visible from '../../assets/visible.svg'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
+import './select.css'
 
 const Login = () => {
   return (
@@ -22,11 +24,10 @@ const Login = () => {
             >
               Prefix
             </label>
-            <input
-              type="text"
-              value={'+1'}
-              className="px-[6px]  border-[1.29px] border-[#000000] rounded-[23px] w-[137px] pl-[30px] h-[92px] relative bg-inherit text-[28px] font-[400]"
-            />
+         
+            <select name="" className="select-wrapper px-[6px]  border-[1.29px] border-[#000000] rounded-[23px] w-[137px] pl-[30px] h-[92px] relative bg-inherit text-[28px] font-[400] select-wrapper" id="">
+              <option value="+1">+1</option>
+            </select>
           </div>
           <div className="relative mx-[19px]">
             <label
@@ -39,17 +40,21 @@ const Login = () => {
             <input
               type="text"
              
-              className="px-[6px]  border-[1.29px] border-[#000000] rounded-[23px] w-[332px] h-[92px] relative bg-inherit"
+              className="px-[20px]  border-[1.29px] border-[#000000] rounded-[23px] w-[332px] h-[92px] text-[21px]  relative bg-inherit"
+              placeholder="1234567890"
             />
           </div>
         </div>
-        <label htmlFor="" className="text-[#393939] text-[21px] py-[10px]">Password</label>
-        <input
-          type="text"
-          className="px-[6px]  border-[1.29px] border-[#000000] rounded-[38px] w-[489px] h-[92px] relative bg-inherit"
-        />
-        <button className="bg-[#28A9F1] rounded-[38px] text-[#F9F9FB] w-[489px] h-[96px] mt-[43px] mb-[30px]" >Login</button>
-        <p className="text-[#393939] text-[21px] font-[400] pl-[70px]">Dont you have a account <a href=""className="text-[#28A9F1] underline" > Signup</a></p>
+        <div className="flex flex-col relative">
+      <label htmlFor="" className="text-[#393939] text-[21px] py-[10px]">Password</label>
+      <input
+        type="text"
+        className="px-[6px]  pl-[30px] border-[1.29px] border-[#000000] rounded-[38px] w-[486px] h-[85px] relative bg-inherit  text-[#6F6F6F] text-[24px] font-[400]"
+      />
+      <img src={visible} className="h-[22px] w-[30px] relative bottom-[55px] left-[430px]" alt="" />
+      </div>
+        <button className="bg-[#28A9F1] rounded-[38px] text-[#F9F9FB] w-[489px] h-[96px] mt-[43px] mb-[30px] text-[25px] font-[400]" >Login</button>
+        <p className="text-[#393939] text-[21px] font-[400] pl-[70px]">Don't you have a account <a href=""className="text-[#28A9F1] underline" > Signup</a></p>
       </div>
     </div>
   );

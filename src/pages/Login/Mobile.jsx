@@ -15,36 +15,36 @@ const Mobile = () => {
         Enter Your Phone Number
       </p>
       <div className="mt-[50px] flex ">
-        <div className="relative">
-          <label
-            htmlFor="prefix"
-            className="absolute z-[1] top-[-10px] left-[15px] bg-[#F5F5F5] text-[16px] font-[400] px-[10px]"
-          >
-            Prefix
-          </label>
-          <input
-            type="text"
-            value={'+1'}
-            className="px-[6px]  border-[1.29px] border-[#000000] rounded-[23px] w-[137px] pl-[30px] h-[92px] relative bg-inherit text-[28px] font-[400]"
-          />
-        </div>
+      <div className="relative">
+            <label
+              htmlFor="prefix"
+              className="absolute z-[1] top-[-10px] left-[15px] bg-[#F5F5F5] text-[16px] font-[400] px-[10px]"
+            >
+              Prefix
+            </label>
+         
+            <select name="" className="select-wrapper px-[6px]  border-[1.29px] border-[#000000] rounded-[23px] w-[137px] pl-[30px] h-[92px] relative bg-inherit text-[28px] font-[400] select-wrapper" id="">
+              <option value="+1">+1</option>
+            </select>
+          </div>
         <div className="relative mx-[19px]">
           <label
             htmlFor="prefix"
             
-            className="absolute z-[1] top-[-10px] left-[15px] bg-[#F5F5F5] text-[16px] font-[400] px-[10px]"
+            className="absolute z-[1] top-[-10px] left-[15px] bg-[#F5F5F5] text-[16px] font-[400] px-[10px] "
+            placeholder="1234567890"
           >
             Mobile Number
           </label>
           <input
             type="text"
            
-            className="px-[6px]  border-[1.29px] border-[#000000] rounded-[23px] w-[332px] h-[92px] relative bg-inherit"
+            className="  border-[1.29px] border-[#000000] rounded-[23px] w-[332px] h-[92px] relative bg-inherit  text-[#6F6F6F] font-[400] text-[28px] px-[20px]"
           />
         </div>
       </div>
     
-      <button className="bg-[#28A9F1] rounded-[38px] text-[#F9F9FB] w-[489px] h-[96px] mt-[43px] mb-[30px]" >Receive OTP</button>
+      <button className="bg-[#28A9F1] rounded-[38px] text-[#F9F9FB] w-[489px] h-[96px] text-[25px] font-[400] mt-[43px] mb-[30px]" >Receive OTP</button>
     
     </div>
   </div>

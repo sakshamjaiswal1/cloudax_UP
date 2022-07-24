@@ -1,42 +1,43 @@
 import React from "react";
 import Ellipse from "../../assets/Ellipse.svg";
-import Vector from "../../assets/Vector.svg";
 import Header from "../../components/Header/Header";
+import arrowLeft from "../../assets/arrowLeft.svg";
 
 const Form = () => {
   return (
     <> <Header/>
+    <div className="flex ml-20  items-end " > <img
+                      src={arrowLeft}                      alt=""
+                      class="flex-shrink-0 ml-20 h-6 w-6 rounded-full "
+                    /> </div>
     <div className="flex justify-center">
       <div class="w-4/12 h-5/6 bg-white rounded-lg border border-black-400  dark:bg-black-800 dark:border-black-700" >
       <form  >
         <div className="bg-grey  ">
           <div className="p-5 pb-3 " >
-            <div className="mt-6">
+            <div className="mt-4">
               <label
                 id="listbox-label"
-                class="block text-sm font-medium text-gray-700 font-sans"
+                class="block  text-black-700 font-[400] text-[14px] "
               >
                 Bank
               </label>
               <div class="mt-1 relative">
                 <button
                   type="button"
-                  class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  class="relative w-full bg-white border border-black-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                   aria-haspopup="listbox"
                   aria-expanded="true"
                   aria-labelledby="listbox-label"
                 >
-                  <span class="flex items-center">
+                  <span class="flex ">
                     <img
                       src={Ellipse}
                       alt=""
-                      class="flex-shrink-0 h-6 w-6 rounded-full"
+                      class="flex-shrink-0 h-6 w-6 rounded-full "
                     />
-                    <span class="ml-3 block truncate  "> Select Bank </span>{" "}
-                    <span class=" relative ml-5 pl-3 text-end">
-                     
-                      <img class="relative  pl-3 text-end" src={Vector} alt="" />
-                    </span>
+                    <span class="ml-3 block truncate text-black-700 font-[500] text-[14px] "> Select Bank </span>{" "}
+                   
                   </span>
                 </button>
               </div>
@@ -44,7 +45,7 @@ const Form = () => {
             <div className="mt-6" >
               <label
                 id="listbox-label"
-                class="block text-sm font-medium text-gray-700  font-sans"
+                class="block text-black-700 font-[500] text-[14px]"
               >
                 Account Number
               </label>
@@ -52,14 +53,14 @@ const Form = () => {
                 <input
                   type="text"
                   placeholder="0123456789"
-                  class="relative w-full bg-white placeholder-gray-800 border border-gray-300 rounded-xl shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  class="relative w-full placeholder-gray-400 bg-white border border-black-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 />
               </div>
             </div>
             <div className="mt-6" >
               <label
                 id="listbox-label"
-                class="block text-sm font-medium text-gray-700  font-sans"
+                class="block text-black-700 font-[500] text-[14px]"
               >
                 Enter BVN
               </label>
@@ -67,7 +68,7 @@ const Form = () => {
                 <input
                   type="text"
                   placeholder="0123456789"
-                  class="relative w-full placeholder-gray-800 bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  class="relative w-full placeholder-gray-400 bg-white border border-black-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 />
               </div>
             </div>
@@ -77,7 +78,7 @@ const Form = () => {
                 <button
                   type="button"
                   placeholder="0123456789"
-                  class=" text-slate-400 p-4 w-11/12 justify-center bg-white border border-gray-300 rounded-3xl shadow-sm pl-3  text-center  focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  class=" text-slate-400 p-4 w-11/12 justify-center bg-white border border-black-400 rounded-3xl shadow-sm pl-3  text-center  focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 >
                   Verify BVN
                 </button>
