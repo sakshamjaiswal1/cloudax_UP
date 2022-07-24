@@ -30,16 +30,16 @@ const App = () => {
       {/* <Login/> */}
       {/* <Form/> */}
       {/* <Form1/> */}
-      <Login/>
+      {/* <Login/> */}
       {/* <Create/> */}
-      <Mobile/>
+      {/* <Mobile/> */}
       <Activate/>
       {/* <Email/> */}
-      <KycVerification/>
-      <IdVerification/>
+      {/* <KycVerification/> */}
+      {/* <IdVerification/> */}
       {/* <IdVerified/> */}
       {/* <KycVerified/> */}
-      <FacialVerification/>
+      {/* <FacialVerification/> */}
       {/* <FacialVerified/> */}
       {/* <Verified/> */}
       {/* <Transactions/> */}
