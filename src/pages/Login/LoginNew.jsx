@@ -17,12 +17,12 @@ const LoginNew = () => {
           Login to Cloudax
         </p>
         <div className="flex flex-col relative">
-      <label htmlFor="" className="text-[#393939] font-[400] text-[21px] py-[10px]">Password</label>
+      <label htmlFor="" className="text-[#393939] font-[400] text-[21px] py-[10px]">E-mail Address or Phone Number</label>
       <input
         type="text"
         className="px-[6px]  pl-[30px] border-[1.29px] border-[#000000] rounded-[38px] w-[486px] h-[85px] relative bg-inherit  text-[#6F6F6F] text-[24px] font-[400]"
       />
-      <img src={visible} className="h-[22px] w-[30px] relative bottom-[55px] left-[430px]" alt="" />
+   
       </div>
         <div className="flex flex-col relative">
       <label htmlFor="" className="text-[#393939]  font-[400] text-[21px] py-[10px]">Password</label>
