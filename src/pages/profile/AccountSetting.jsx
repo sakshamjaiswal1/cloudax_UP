@@ -13,7 +13,7 @@ const AccountSetting = () => {
           Account Settings
         </p>
       </div>
-      <div className="bg-[#EFF1F7] flex mx-[150px] rounded-[13px] w-[1191px] h-[812px]">
+      <div className="bg-[#EFF1F7] flex mx-[70px] rounded-[13px] w-[1191px] h-[812px]">
         <div className="flex flex-col">
           <div className="bg-[#FFFFFF] w-[741px] h-[288px] rounded-[14px] m-[16px]">
             <div className="flex pl-[50px] pt-[30px]">
@@ -37,7 +37,7 @@ const AccountSetting = () => {
                 </label>
                 <input
                   type="text"
-                  className=" border-[#9E9E9E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[254px] px-[60px]"
+                  className=" border-[#9E9E9E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[254px] px-[20px]"
                   placeholder="08123456789"
                 />
               </div>
@@ -47,7 +47,7 @@ const AccountSetting = () => {
                 </label>
                 <input
                   type="text"
-                  className=" border-[#9E9E9E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[254px] px-[60px]"
+                  className=" border-[#9E9E9E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[254px] px-[20px]"
                   placeholder="peterpeterson@gmail.com"
                 />
               </div>

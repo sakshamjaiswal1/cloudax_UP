@@ -5,7 +5,7 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 const Create = () => {
   return (
     <div className="flex bg-[#F5F5F5] justify-center">
-    <div className="flex-[4_4_0]">
+    <div className="flex-[3_3_0]">
       <img src={logo} className="h-[1000px] w-[100%]" alt="" />
     </div>
 

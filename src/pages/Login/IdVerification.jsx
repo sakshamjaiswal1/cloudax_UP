@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import down from "../../assets/down.svg";
-import upload from '../../assets/upload.svg'
+import upload from '../../assets/upload.png'
 import { AiOutlineArrowLeft } from "react-icons/ai";
 const IdVerification = () => {
   return (

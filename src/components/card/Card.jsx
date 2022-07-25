@@ -12,7 +12,7 @@ const Card = (props) => {
         background = "#02A9F1";
     }
     return (
-        <div className="bg-white w-full my-10 flex justify-between items-center">
+        <div className="w-full my-10 flex justify-between items-center">
             <div className="flex justify-between items-center gap-2">
                 <img style={{background: background}} src={props.img} alt="" className="w-10 object-contain h-10 rounded-full" />
                 <div>

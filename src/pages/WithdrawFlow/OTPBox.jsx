@@ -39,7 +39,7 @@ const OTPBox = () => {
                                        
                                         <div className="items-center w-full justify-center gap-2 mt-4 sm:flex pl-5 rounded-lg ">
                                             <button
-                                                className="w-full mt-2 p-2 flex-1 text-white font-[200] text-[12px] bg-[#28A9F1] rounded-2xl outline-none ring-offset-2 ring-red-600 focus:ring-2"
+                                                className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
                                                
                                             >
                                                Confirm Withdrawal

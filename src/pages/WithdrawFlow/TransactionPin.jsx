@@ -48,8 +48,7 @@ const TransactionPin = () => {
                                    <div className='flex justify-center items-center mr-5 flex-col'  ><p  className='text-black  font-[500] text-[12px] pt-4 pb-0 ml-10'  >You need to set-up a transaction pin </p><p  className='  text-black font-[500] text-[12px]  pb-0 ml-10'>to proceed.</p></div>
                                    <div className='flex justify-center items-center  pt-5' ><button
                   type="button"
-                  
-                  class="text-white p-2 w-7/12    border border-gray-300 rounded-3xl bg-[#28A9F1] shadow-sm pl-3  text-center  focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
                 >
                  Set Up Transaction Pin
                 </button></div>

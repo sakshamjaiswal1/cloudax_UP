@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import face from "../../assets/face.svg";
-import congrats from '../../assets/congrats.svg'
-import greenVerify from '../../assets/greenVerify.svg'
+import congrats from '../../assets/congrats.png'
+import successalert from '../../assets/successalert.svg'
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const Verified = () => {
@@ -17,7 +17,7 @@ const Verified = () => {
           <img src={congrats} alt="" className="h-[267px] w-[267px] bg-[#F5F5F5]" />
         
         </div>
-        <p className="flex justify-start my-[30px] items-center text-[#39BE0A] text-[32px] font-[400] pl-[100px]">You are verified <img src={greenVerify} className='h-[33px] w-[33px] mx-[10px]' alt="" /></p>
+        <p className="flex justify-start my-[30px] items-center text-[#39BE0A] text-[32px] font-[400] pl-[100px]">You are verified <img src={successalert} className='h-[33px] w-[33px] mx-[10px]' alt="" /></p>
         <p className="text-[#252525] pl-[50px] pr-[200px]">
         Thank you for verifying your identity. You are set to make transactions from your dashboard.
         </p>

@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
-import camera from "../../assets/camera.svg";
+import camera from "../../assets/camera.png";
 
 import { AiOutlineArrowLeft } from "react-icons/ai";
 const FacialVerification = () => {

@@ -13,7 +13,7 @@ const AccountChangePin = () => {
           Account Settings
         </p>
       </div>
-      <div className="bg-[#EFF1F7] flex mx-[150px] rounded-[13px] w-[1191px] h-[812px]">
+      <div className="bg-[#EFF1F7] flex mx-[80px] rounded-[13px] w-[1191px] h-[582px] mb-[128px]">
         <div className="flex">
           <div className=" mt-[18px] w-[540px] h-[217px] rounded-[14px] mx-[16px]">
             <p className=" pt-[32px] pl-[51px] text-[20px] font-[700] text-[#1E1E1E]">
@@ -24,7 +24,7 @@ const AccountChangePin = () => {
             </p>
          
           </div>
-          <div className="w-[550px] h-[462px] bg-[#FFFFFF] flex flex-col mt-[27px] pt-[60px] justify-center">
+          <div className="w-[550px] h-[462px] bg-[#FFFFFF] flex flex-col mt-[27px] pt-[60px] justify-center rounded-[14px]">
             <div className="flex flex-col ml-[49px] relative">
               <label
                 htmlFor=""

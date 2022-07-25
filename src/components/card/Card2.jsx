@@ -3,7 +3,7 @@ import React from 'react'
 const Card2 = (props) => {
     
     return (
-        <div className={`bg-white flex w-full p-2 gap-2 ${props.mt}`}>
+        <div className={`bg-white flex w-[481px] h-[75px] p-2 gap-2 ${props.mt}`}>
             <div className=" bg-gray-100 w-10 h-10 rounded-full flex justify-center items-center">
                 <img src={props.img} alt="" />
 

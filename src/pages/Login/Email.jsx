@@ -19,7 +19,7 @@ const Email = () => {
    
       <label htmlFor="" className="text-[#000000] pr-[30px] text-[21px] py-[30px]">We sent an e-mail containing a verification link to someone@email.com. Please click the link to complete your registration.</label>
       <div className="flex justify-center">
-      <img src={email} className='w-[188px] h-[194px] mr-[300px]' alt="" />
+      <img src={email} className='w-[188px] h-[194px] mr-[265px]' alt="" />
       </div>
       
       <button className="bg-[#28A9F1] rounded-[38px] text-[#F9F9FB] w-[476px] h-[82px] mt-[43px] mb-[30px]" >Go to E-mail</button>

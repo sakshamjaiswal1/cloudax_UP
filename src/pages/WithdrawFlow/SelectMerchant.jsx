@@ -25,7 +25,7 @@ const SelectMerchant = () => {
                 <button
                   type="button"
                   placeholder="0123456789"
-                  class=" text-slate-400 p-3 w-11/12 justify-center bg-white border border-black-400 rounded-3xl shadow-sm pl-3  text-center  focus:outline-none focus:ring-1 focus:ring-[#28A9F1] focus:border-indigo-500 sm:text-sm"
+                  className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
                 >
                  Proceed
                 </button>

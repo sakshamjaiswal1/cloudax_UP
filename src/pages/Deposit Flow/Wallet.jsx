@@ -41,8 +41,8 @@ const Wallet = () => {
                         </div>
                 </BlueCard>
             </div>
-            <div className="w-1/2 p-4">
-               <div className="w-full p-4 bg-[#F5F5F5]">
+            <div className="w-[590px] h-[424px] p-4 ">
+               <div className="w-full p-4 bg-[#F5F5F5] rounded-[13px] px-[10px] pt-[30px]">
                 <div className="flex justify-between">
                     <p>Transaction History</p>
                     <p className="opacity-70">View All</p>

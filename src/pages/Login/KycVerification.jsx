@@ -24,7 +24,7 @@ const KycVerification = () => {
           To ensure the security of your account, please complete the following.
         </label>
         <button className="bg-[#DBFFC9] flex justify-between items-center rounded-[20px] text-[#000000] w-[476px] text-[21px] h-[82px] mt-[13px] mb-[20px] px-[20px]">
-          Go to Email{" "}
+          Verify{" "}
           <img src={verified} alt="" className="h-[27px] w-[27px]" />
         </button>
 
