@@ -1,6 +1,6 @@
 import "./App.css";
 // import Header from './components/Header/Header';
-// import Payment from './pages/Deposit Flow/Payment';
+
 // import AccountChangePin from './pages/profile/AccountChangePin';
 // import AccountEnterOtp from "./pages/profile/AccountEnterOtp";
 // import AccountSuccess from './pages/profile/AccountSuccess';
@@ -14,6 +14,7 @@ import FacialVerified from "./pages/Login/FacialVerified";
 import IdVerification from "./pages/Login/IdVerification";
 import IdVerified from "./pages/Login/IdVerified";
 import KycVerification from "./pages/Login/KycVerification";
+import KycVerified from "./pages/Login/KycVerified";
 import Verified from "./pages/Login/Verified";
 import AccountSetting from "./pages/profile/AccountSetting";
 import AccountChangePin from "./pages/profile/AccountChangePin";
@@ -22,6 +23,7 @@ import MainProfile from "./pages/profile/MainProfile";
 import Wallet from "./pages/Deposit Flow/Wallet";
 import VerifyVbm from "./pages/profile/VerifyVbm";
 import LoginNew from "./pages/Login/LoginNew";
+
 
 
 const App = () => {
@@ -39,7 +41,7 @@ const App = () => {
       {/* <ConfirmForm1/> */}
       {/* <ConfirmFrom1/> */}
       {/* <Login/> */}
-      <LoginNew/>
+      {/* <LoginNew/> */}
       {/* <Form/> */}
       {/* <Form1/> */}
       {/* <Login/> */}
@@ -47,14 +49,14 @@ const App = () => {
       {/* <Mobile/> */}
       {/* <Activate/> */}
       {/* <Email/> */}
-      {/* <KycVerification/> */}
-      {/* <IdVerification />
-      <IdVerified /> */}
-      {/* <KycVerified/> */}
+      <KycVerification/>
+      {/* <IdVerification /> */}
+      {/* <IdVerified /> */}
+      <KycVerified/>
       {/* <FacialVerification/> */}
       {/* <FacialVerified/> */}
       {/* <Verified /> */}
-      {/* <Transactions/> */}
+      {/* <PaymentWithPopup/> */}
       {/* <Wallet/> */}
       {/* <MainProfile />
       <AccountSetting /> */}
@@ -62,8 +64,7 @@ const App = () => {
       {/* <Services/> */}
       {/* <Payment/> */}
       {/* <AccountEnterOtp/> */}
-      {/* <Payment/> */}
-      {/* <AccountSuccess/> */}
+           {/* <AccountSuccess/> */}
       {/* <AccountChangePin /> */}
       {/* <ManageAccount/> */}
       {/* <VerifyVbm/> */}
