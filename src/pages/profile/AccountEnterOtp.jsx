@@ -35,7 +35,7 @@ const AccountEnterOtp = () => {
              0123456
               </label>
               <input
-                type="text"
+                type="password"
                 className=" border-[#9E9E9E] text-[18px] font-[400] text-[#1E1E1E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[429px] px-[20px] py-[10px]"
                 placeholder="**********"
               />
@@ -44,7 +44,7 @@ const AccountEnterOtp = () => {
          
           
             <button className="h-[48px] bg-[#28A9F1] w-[290px] text-[#FFFFFF] ml-[114px] mt-[34px] rounded-[21px]">
-            Proceed
+            Change Password
               </button>
           </div>
         </div>

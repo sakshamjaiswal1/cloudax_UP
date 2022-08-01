@@ -25,7 +25,7 @@ const SelectMerchant = () => {
                 <button
                   type="button"
                   placeholder="0123456789"
-                  className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
+                  className="text-gray-400 p-3 w-11/12 justify-center   border border-slate-400 rounded-[26px] bg-white  pl-3  text-center"
                 >
                  Proceed
                 </button>

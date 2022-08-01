@@ -33,7 +33,7 @@ const AccountChangePin = () => {
               Current Pin
               </label>
               <input
-                type="text"
+                type="password"
                 className=" border-[#9E9E9E] text-[18px] font-[400] text-[#1E1E1E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[429px] px-[20px] py-[10px]"
                 placeholder="****"
               />
@@ -53,7 +53,7 @@ const AccountChangePin = () => {
           New Password
               </label>
               <input
-                type="text"
+                type="password"
                 className=" border-[#9E9E9E] text-[18px] font-[400] text-[#1E1E1E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[429px] px-[20px] py-[10px]"
                 placeholder="****"
               />
@@ -73,7 +73,7 @@ const AccountChangePin = () => {
                 Confirm New Password
               </label>
               <input
-                type="text"
+                type="password"
                 className=" border-[#9E9E9E] text-[18px] font-[400] text-[#1E1E1E] border-solid border-[0.9px] rounded-[6px] h-[44px] w-[429px] px-[20px] py-[10px]"
                 placeholder="****"
               />

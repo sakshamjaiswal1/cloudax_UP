@@ -21,7 +21,7 @@ const AddBankAccount = () => {
             <div className="mt-4">
               <label
                 id="listbox-label"
-                class="block  text-black-700 font-[400] text-[14px] "
+                className="block  text-black-700 font-[400] text-[14px] "
               >
                 Select Currency
               </label>
@@ -48,11 +48,11 @@ const AddBankAccount = () => {
             <div className="mt-6" >
               <label
                 id="listbox-label"
-                class="block text-[#393939] font-[400] text-[14px]"
+                className="block text-[#393939] font-[400] text-[14px]"
               >
                 Input Amount 
               </label>
-              <div class="mt-1 relative">
+              <div className="mt-1 relative">
                 <input
                   type="text"
                   placeholder="NGN     0.00"
@@ -64,7 +64,7 @@ const AddBankAccount = () => {
             <div className="mt-6 mb-6 relative justify-center ">
             <label
                 id="listbox-label"
-                class="block text-[#393939] font-[400] text-[14px] pb-[8px]"
+                className="block text-[#393939] font-[400] text-[14px] pb-[8px]"
               >
                 Fund with
               </label>

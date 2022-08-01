@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import arrowLeft from "../../assets/arrowLeft.svg";
-import visible from "../../assets/visible.svg";
+
 
 const VerifyVbm = () => {
   return (
@@ -34,7 +34,7 @@ const VerifyVbm = () => {
               Account Number
             </label>
             <input
-              type="text"
+              type="password"
               className=" border-[#9E9E9E] text-[19px] font-[400] text-[#000000] border-solid border-[1px] rounded-[14px] h-[61px] w-[544px] px-[20px] py-[10px]"
               placeholder="****"
             />
@@ -48,7 +48,7 @@ const VerifyVbm = () => {
               Enter BVN
             </label>
             <input
-              type="text"
+              type="password"
               className=" border-[#9E9E9E] text-[19px] font-[400] text-[#000000] border-solid border-[0.9px] rounded-[14px] h-[61px] w-[544px] px-[20px] py-[10px]"
               placeholder="****"
             />

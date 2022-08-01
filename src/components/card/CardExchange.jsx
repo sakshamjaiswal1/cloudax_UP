@@ -15,10 +15,10 @@ const CardExchange = (props) => {
   }
 
   return (
-    <div onClick={handleClick} className={`w-full my-2 ${cardBG} rounded-[20px] flex justify-between items-center p-5`}>
+    <div onClick={handleClick} className={`w-full my-2 ${cardBG} rounded-[20px] flex justify-between items-center p-4`}>
         <div  >
-           <p className={`${cardBG === "bg-theme" ? "text-white" : "text-black"}font-[400] text-[16px]`}> {props.children} </p>
-           <p className='font-[200] text-[5px]' > {props.data}</p>
+           <p  className={`font-[200] text-[16px] ${btnBG === "bg-theme"? "text-black": "text-white"}  `} > {props.children} </p>
+             <p className={`font-[200] text-[10px] ${btnBG === "bg-theme"? "text-black": "text-white"}  `} > {props.data}</p>
         </div>
         
         <button className={`p-2 rounded-[20px] ${btnBG === "bg-theme"? "text-white": "text-black"} flex justify-center items-center text-center w-36 ${btnBG}`}>Top Up</button>

@@ -13,7 +13,7 @@ const IdVerification = () => {
       <div className="flex-[4_4_0] flex flex-col  pl-[40px] lg:pl-[100px] pt-[35px] lg:pt-[69px]">
         <AiOutlineArrowLeft  className="text-[#000000] text-[26px] lg:text-[30px] mb-[24px]" />
         <p className="text-[#000000] mb-[20px] font-[700] lg:text-[39.02px] leading-[51px] text-[24px]">
-          ID verification
+          ID Verification
         </p>
         <label
           htmlFor=""
@@ -22,7 +22,7 @@ const IdVerification = () => {
           Please provide a valid government issued ID for verification.
         </label>
         <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between lg:text-[22px] font-[400] px-[20px] lg:w-[476px] lg:h-[82px] h-[60px] w-[308px]  mb-[20px] text-mn">
-          Select Id Type <img src={down} alt="" className="h-[20px] w-[20px]" />
+          Select ID Type <img src={down} alt="" className="h-[20px] w-[20px]" />
         </button>
         <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between  lg:text-[22px] font-[400] px-[20px] lg:w-[476px] lg:h-[82px] h-[60px] w-[308px] mb-[20px] text-mn">
           Id Number

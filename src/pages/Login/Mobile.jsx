@@ -13,7 +13,9 @@ const Mobile = () => {
     <AiOutlineArrowLeft className="text-[#000000] text-[26px] lg:text-[30px] mb-[24px]" />
       <p className="text-[#000000] font-[700] text-mti lg:text-[39.02px] leading-[51px]">
         Enter Your Phone Number
-      </p>
+      </p  >
+      <p className="text-[#000000]">Type in your phone number to complete setting </p>
+      <p className="text-[#000000]" >up your account.</p>
       <div className="mt-[50px] flex ">
       <div className="relative">
             <label
@@ -32,13 +34,13 @@ const Mobile = () => {
             htmlFor="prefix"
             
             className="absolute z-[1] top-[-10px] left-[15px] bg-[#F5F5F5] text-[12px] lg:text-[16px] font-[400] px-[10px] "
-            placeholder="1234567890"
+            
           >
             Mobile Number
           </label>
           <input
             type="text"
-           
+            placeholder="1238908732"
             className="  border-[1.29px] border-[#000000] rounded-[23px] lg:w-[332px] lg:h-[92px] h-[59px] w-[180px] relative bg-inherit  text-[#6F6F6F] font-[400] text-[28px] px-[20px]"
           />
         </div>

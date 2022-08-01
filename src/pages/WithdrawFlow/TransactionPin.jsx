@@ -34,21 +34,21 @@ const TransactionPin = () => {
                 {showModal ? (
                       <>
                         <div className="flex justify-center ">
-                          <div className="fixed w-full inset-0 z-10 overflow-y-auto">
+                          <div className="fixed w-full  inset-0 z-10 overflow-y-auto">
                             <div
                               className="fixed inset-0 w-full h-full bg-black opacity-40"
                               onClick={() => setShowModal(false)}
                             ></div>
-                            <div className="flex justify-center  w-full items-center min-h-screen ">
-                              <div className="relative w-26 text-[9px]  flex justify-center bg-white rounded-2xl shadow-lg">
+                            <div className="flex justify-center  w-full h-[30vh]  items-center min-h-screen ">
+                              <div className="relative w-27 text-[9px] ml-[10px] flex justify-center bg-white rounded-2xl shadow-lg">
                                 {" "}
-                                <div className="flex justify-center flex-col h-[180px] w-[370px] ">
+                                <div className="flex justify-center flex-col h-[160px] w-[370px] ">
                                   {" "}
                                   
                                    <div className='flex justify-center items-center mr-5 flex-col'  ><p  className='text-black  font-[500] text-[12px] pt-4 pb-0 ml-10'  >You need to set-up a transaction pin </p><p  className='  text-black font-[500] text-[12px]  pb-0 ml-10'>to proceed.</p></div>
-                                   <div className='flex justify-center items-center  pt-5' ><button
+                                   <div className='flex justify-center items-center  pt-5 pb-3' ><button
                   type="button"
-                  className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
+                  className="text-white text-[12px]  bg-[#28A9F1] p-3 w-7/12 justify-center   border border-black-500 rounded-[26px] shadow-sm pl-3  text-center"
                 >
                  Set Up Transaction Pin
                 </button></div>

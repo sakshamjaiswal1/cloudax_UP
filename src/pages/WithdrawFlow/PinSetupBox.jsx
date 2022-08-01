@@ -72,21 +72,21 @@ function PinSetupBox() {
                               className="fixed inset-0 w-full h-full bg-black opacity-40"
                               onClick={() => setShowModal(false)}
                             ></div>
-                            <div className="flex justify-center  w-full items-center min-h-screen ">
-                              <div className="relative w-34 text-[9px]  flex justify-center bg-white rounded-2xl shadow-lg">
+                            <div className="flex justify-center   w-full items-center min-h-screen ">
+                              <div className="relative w-34 text-[9px] pr-[7px] flex justify-center bg-white rounded-2xl shadow-lg">
                                 {" "}
-                                <div className="flex justify-center flex-col pl-10 h-[240px] w-[270px] ">
+                                <div className="flex justify-center flex-col pl-8 h-[240px] w-[270px] ">
                                   {" "}
-                                  <img
-                                    className=" h-[100px] ml-10 w-[100px] "
+                                  <span className="pl-[10px]"><img
+                                    className=" h-[100px] ml-11 w-[100px]  "
                                     src={Withdrawal}
                                     alt=""
-                                  />
+                                  /></span>
                                    <p  className='text-black font-[500] text-[12px] pt-4 pb-0 ml-10'  >Pin SetUp Succesfully</p>
                                    <div className='pt-4' ><button
                   type="button"
                   
-                  className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
+                  className="text-[#FFFFFF] text-[13px] p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-[#28A9F1] shadow-sm pl-3  text-center"
                 >
                  Return to Withdrawal
                 </button></div>

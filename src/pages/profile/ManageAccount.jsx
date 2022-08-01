@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import arrowLeft from "../../assets/arrowLeft.svg";
-import visible from "../../assets/visible.svg";
+
 
 const ManageAccount = () => {
   return (
@@ -46,8 +46,8 @@ const ManageAccount = () => {
             </div>
           
        
-            <button className="h-[48px] bg-[#28A9F1] text-[#FFFFFF] w-[290px]  ml-[114px] mt-[14px] mb-[30px] rounded-[21px]">
-            Proceed
+            <button className="h-[48px] bg-[#28A9F1] text-[#FFFFFF] w-[290px] p-[10px] ml-[114px] mt-[14px] mb-[35px] rounded-[21px]">
+            Add an Account
               </button>
           </div>
         </div>

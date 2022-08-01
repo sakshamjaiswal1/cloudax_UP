@@ -16,11 +16,11 @@ const OTPBox = () => {
                             
                         ></div>
                         <div className="flex   w-full items-center min-h-screen ">
-                            <div className="relative pb-7 w-3/12 max-w-lg p-4 mx-auto bg-white rounded-2xl shadow-lg">
-                                <div className="mt-3 sm:flex">
+                            <div className="relative pb-7  w-3/12 max-w-lg p-4 mx-auto bg-white rounded-2xl shadow-lg">
+                                <div className="mt-3 sm:flex pr-[16px] ">
                                     
                                     <div className="mt-2 text-center sm:ml-4 ">
-                                        <h4 className="font-[500] ml-2 text-[10px]  text-gray-800">
+                                        <h4 className="font-[500] pl-[15px] text-[10px]  text-gray-800">
                                         Enter the 6-digit OTP sent to your phone number.
                                         </h4>
                                         <div class="mt-1 ml-6 pt-3 relative">
@@ -39,7 +39,7 @@ const OTPBox = () => {
                                        
                                         <div className="items-center w-full justify-center gap-2 mt-4 sm:flex pl-5 rounded-lg ">
                                             <button
-                                                className="text-gray-400 p-3 w-11/12 justify-center   border border-black-500 rounded-[26px] bg-white shadow-sm pl-3  text-center"
+                                                className="text-[#FFFFFF] p-3 w-11/12 justify-center  text-[13px]  border border-black-500 rounded-[26px] bg-[#28A9F1] shadow-sm pl-3  text-center"
                                                
                                             >
                                                Confirm Withdrawal
