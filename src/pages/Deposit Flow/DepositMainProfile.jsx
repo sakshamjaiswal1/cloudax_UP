@@ -146,10 +146,10 @@ const DepositMainProfile = () => {
     <MobileHeader/>
     <MobileBalanceCard/>
     <div className="bg-[#F5F5F5] rounded-t-[20px]" >
-        <h2  className="pt-[25px] pl-[32px] pb-[41px]" >My Portfolio</h2>
+        <h2  className="pt-[25px] text-[16px] font-[500] pl-[32px] pb-[41px]" >My Portfolio</h2>
         <div className="flex flex-col items-center pb-[200px]" >
             <p>No assets currently in your portfolio.</p>
-            <button className="h-[43px] w-[249px] bg-[#28A9F1] rounded-[19px] " > Deposit</button>
+            <button className="h-[43px] w-[249px] bg-[#28A9F1] my-[20px] text-[#ffffff] rounded-[19px] " > Deposit</button>
         </div>
     </div>
     <MobileFooter/>
