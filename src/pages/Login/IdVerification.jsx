@@ -5,7 +5,7 @@ import upload from '../../assets/upload.png'
 import { AiOutlineArrowLeft } from "react-icons/ai";
 const IdVerification = () => {
   return (
-    <div className="flex bg-[#F5F5F5] ">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] ">
       <div className="flex-[3.3_3.3_0]  hidden lg:inline-block">
         <img src={logo} className="h-max w-[100%]" alt="" />
       </div>
@@ -17,7 +17,7 @@ const IdVerification = () => {
         </p>
         <label
           htmlFor=""
-          className="text-[#000000] pr-[150px] text-mn lg:text-[21px] font-[400] py-[30px]"
+          className="text-[#000000] lg:pr-[150px] text-mn lg:text-[21px] font-[400] py-[30px]"
         >
           Please provide a valid government issued ID for verification.
         </label>
@@ -25,7 +25,7 @@ const IdVerification = () => {
           Select ID Type <img src={down} alt="" className="h-[20px] w-[20px]" />
         </button>
         <button className="bg-[#F2F2F2] rounded-[20px] text-[#000000] flex items-center justify-between  lg:text-[22px] font-[400] px-[20px] lg:w-[476px] lg:h-[82px] h-[60px] w-[308px] mb-[20px] text-mn">
-          Id Number
+          ID Number
         </button>
         <div className="relative">
           <label

@@ -4,7 +4,7 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 
 const Mobile = () => {
   return (
-    <div className="flex bg-[#F5F5F5] justify-center ">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] justify-center ">
     <div className="lg:flex-[3_3_0]">
       <img src={logo} className="lg:inline-block hidden h-max w-[100%]" alt="" />
     </div>
@@ -41,7 +41,7 @@ const Mobile = () => {
           <input
             type="text"
             placeholder="1238908732"
-            className="  border-[1.29px] border-[#000000] rounded-[23px] lg:w-[332px] lg:h-[92px] h-[59px] w-[180px] relative bg-inherit  text-[#6F6F6F] font-[400] text-[28px] px-[20px]"
+            className="  border-[1.29px] border-[#000000] rounded-[23px] lg:w-[332px] lg:h-[92px] h-[59px] w-[180px] relative bg-inherit  text-[#6F6F6F] font-[400]  text-mn lg:text-[28px] px-[20px]"
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ import './select.css'
 
 const Login = () => {
   return (
-    <div className="flex bg-[#F5F5F5] justify-center items-center">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] justify-center items-center">
       <div className="flex-[3_3_0]">
         <img src={logo} className="h-max w-[100%]" alt="" />
       </div>

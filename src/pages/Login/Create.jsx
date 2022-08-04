@@ -4,14 +4,14 @@ import visible from '../../assets/visible.svg'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
 const Create = () => {
   return (
-    <div className="flex bg-[#F5F5F5] justify-center">
-    <div className="lg:flex-[3_3_0]">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] justify-center">
+    <div className="lg:flex-[3_3_0] lg:block ip:hidden">
       <img src={logo} className="lg:inline-block hidden h-[1000px] w-[100%]" alt="" />
     </div>
 
-    <div className="lg:flex-[4_4_0] flex flex-col  pl-[30px] lg:pl-[100px] pt-[90px]">
+    <div className="lg:flex-[4_4_0] flex flex-col  ip:pl-[10px] lg:pl-[100px] lg:pt-[90px] ip:pt-[30px]">
     <AiOutlineArrowLeft className="text-[#000000] text-[30px] mb-[24px]" />
-      <p className="text-[#000000] font-[700] text-mti lg:text-[39.02px] leading-[51px]">
+      <p className="text-[#000000] font-[700] text-[24px] lg:text-[39.02px]  leading-[51px]">
         Create your account
       </p>
       <label htmlFor="" className="text-[#393939] text-mn  pt-[20px] lg:text-[21px] py-[10px]">Your First Name</label>

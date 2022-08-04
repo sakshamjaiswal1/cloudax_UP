@@ -61,7 +61,7 @@ const App = () => {
       {/* <Form1/> */}
       {/* <Login/> */}
       {/* <Create/> */}
-      {/* <Mobile/> */}
+      <Mobile/>
       {/* <Activate/> */}
       {/* <Email/> */}
       {/* <KycVerification/> */}
@@ -83,9 +83,7 @@ const App = () => {
             {/* <ManageAccount/> */}
       {/* <VerifyVbm/> */}
       {/* deposit flow */}
-      {/* <DepositMainProfile/>
-      <Wallet/> */}
-      <FormTransaction/>
+      {/* <DepositMainProfile/> */}
     </div>
   );
 };

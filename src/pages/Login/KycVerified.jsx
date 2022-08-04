@@ -7,7 +7,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const KycVerified = () => {
   return (
-    <div className="flex bg-[#F5F5F5] ">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] ">
     <div className="flex-[3.3_3.3_0]  hidden lg:inline-block">
       <img src={logo} className="h-max w-[100%]" alt="" />
     </div>
@@ -15,11 +15,11 @@ const KycVerified = () => {
     <div className="flex-[4_4_0] flex flex-col  pl-[40px] lg:pl-[100px] pt-[35px] lg:pt-[69px]">
       <AiOutlineArrowLeft className="text-[#000000] text-[26px] lg:text-[30px] mb-[24px]" />
       <p className="text-[#000000] mb-[20px] font-[700] lg:text-[39.02px] leading-[51px] text-[24px]">
-        ID verification
+        KYC verification
       </p>
       <label
         htmlFor=""
-        className="text-[#000000] pr-[150px] text-mn lg:text-[21px] font-[400] py-[30px]"
+        className="text-[#000000] lg:pr-[150px] pr-[20px] text-mn lg:text-[21px] font-[400] py-[30px]"
       >
         To ensure the security of your account, please complete the following.
       </label>

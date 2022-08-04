@@ -5,7 +5,7 @@ import camera from "../../assets/camera.png";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 const FacialVerification = () => {
   return (
-    <div className="flex bg-[#F5F5F5] justify-center">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] justify-center">
         <div className="flex-[3_3_0] hidden lg:inline-block">
         <img src={logo} className="h-max w-[100%]" alt="" />
       </div>
@@ -24,8 +24,8 @@ const FacialVerification = () => {
           We need to be sure it’s you, kindly take a clear picture of your face.
         </label>
         <div className="flex lg:flex-row flex-col justify-between">
-          <img src={camera} alt="" className=" h-[184px] w-[184px] lg:h-[267px] lg:w-[267px] lg:ml-[0px] ml-[50px]" />
-          <div className="h-[123px] bg-[#F2F2F2] w-[290px] text-[12px] lg:text-[13px] font-[400] text-[#363636] rounded-[17px] pt-[30px] pb-[36px] pl-[30px] lg:ml-[0px] ml-[20px]">
+          <img src={camera} alt="" className=" h-[184px] w-[184px] lg:h-[267px] lg:w-[267px] lg:ml-[0px] ml-[50px]  " />
+          <div className="h-[123px] bg-[#F2F2F2] w-[290px] text-[12px] lg:text-[13px] font-[400] text-[#363636] rounded-[17px] pt-[30px] pb-[36px] pl-[30px] lg:ml-[0px] ml-[8px] lg:mt-[0px] mt-[22px]">
               <p>Tips for a good selfie:</p>
               <ul className="list-disc ml-[20px]" >
                   <li>Have good lighting</li>

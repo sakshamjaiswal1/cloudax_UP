@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import down from "../../assets/down.svg";
-import uploads from '../../assets/uploads.svg'
+import deletePhone from '../../assets/deletePhone.svg'
 import { AiOutlineArrowLeft } from "react-icons/ai";
 const IdVerified = () => {
   return (
-    <div className="flex bg-[#F5F5F5] ">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] ">
     <div className="flex-[3.3_3.3_0]  hidden lg:inline-block">
       <img src={logo} className="h-max w-[100%]" alt="" />
     </div>
@@ -32,7 +32,7 @@ const IdVerified = () => {
             htmlFor="prefix"
             className="absolute z-[1]  top-[17px] right-[50px] lg:top-[20px] lg:right-[275px] bg-[#F5F5F5] text-[16px] font-[400] "
           >
-            <img src={uploads} alt="" className="h-[29px] w-[29px] lg:h-[47px] lg:w-[47px]"/>
+            <img src={deletePhone} alt="" className="h-[29px] w-[29px] lg:h-[47px] lg:w-[47px]"/>
           </label>
           <input
             type="text"
@@ -45,7 +45,7 @@ const IdVerified = () => {
             htmlFor="prefix"
             className="absolute z-[1] top-[17px] right-[50px] lg:top-[20px] lg:right-[275px] bg-[#F5F5F5] text-[16px] font-[400] "
           >
-            <img src={uploads} alt="" className="h-[29px] w-[29px] lg:h-[47px] lg:w-[47px]"/>
+            <img src={deletePhone} alt="" className="h-[29px] w-[29px] lg:h-[47px] lg:w-[47px]"/>
           </label>
           <input
             type="text"

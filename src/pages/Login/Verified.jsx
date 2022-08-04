@@ -3,11 +3,11 @@ import logo from "../../assets/logo.svg";
 import face from "../../assets/face.svg";
 import congrats from '../../assets/congrats.png'
 import successalert from '../../assets/successalert.svg'
-import { AiOutlineArrowLeft } from "react-icons/ai";
+
 
 const Verified = () => {
   return (
-    <div className="flex bg-[#F5F5F5] justify-center">
+    <div className="flex lg:bg-[#F5F5F5] ip:bg-[white] justify-center">
       <div className="lg:flex-[3_3_0] hidden lg:inline-block ">
         <img src={logo} className="h-max w-[100%]" alt="" />
       </div>
